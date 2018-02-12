@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '>= 2.2.2'
 
-gem 'rails', '~> 5.1'
+gem 'rails', '>= 5.2.x'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -14,7 +14,7 @@ gem 'turbolinks'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
-gem 'activeadmin', '~> 1.2.1'
+gem 'activeadmin', github: 'activeadmin/activeadmin', branch: 'rails-5.2'
 gem "devise"
 
 gem "faker"
