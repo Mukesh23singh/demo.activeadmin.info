@@ -27,7 +27,7 @@ gem 'newrelic_rpm', '~> 6.0'
 gem 'country_select'
 
 group :development do
-  gem 'mechanize','2.8.0'
+  gem 'mechanize','2.8.1'
 end
 
 gem 'pg', '~> 1.1'
@@ -43,14 +43,14 @@ end
 group :development, :test do
   gem 'factory_bot_rails'
   gem 'rspec-rails', '~> 5.0'
-  gem 'rubocop', '1.13.0'
+  gem 'rubocop', '1.18.3'
   gem 'rubocop-rails', '~> 2.4'
   gem 'rubocop-rspec', '~> 2.0'
 end
 
 group :test do
   gem "shoulda-matchers"
-  gem "webmock", "~> 3.12.0"
+  gem "webmock", "~> 3.13.0"
   gem 'simplecov', :require => false
 end
 
